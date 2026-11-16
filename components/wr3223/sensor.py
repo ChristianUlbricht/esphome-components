@@ -27,9 +27,11 @@ SENSOR_COMMANDS = {
     "T1": ("Verdampfertemperatur", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
     "T2": ("Kondensatortemperatur", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
     "T3": ("Außentemperatur", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
-    "T5": ("Nach Wärmetauscher (Fortluft)", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
+    "T4": ("T4: Abluft- / Raumlufttemperatur", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
+    "T5": ("T5: Kreuzwärmetauschertemperatur (Passiv)", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
     "T6": ("Zulufttemperatur", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
-    "T8": ("Nach Vorheizregister", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
+    "T7": ("T7: Temperatur nach Solevorerwärmung", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
+    "T8": ("T8: Temperatur nach Vorheizregister", UNIT_CELSIUS, DEVICE_CLASS_TEMPERATURE),
     # Drehzahl-Sensoren
     "NA": ("Drehzahl Abluft", "rpm", DEVICE_CLASS_FREQUENCY),
     "NZ": ("Drehzahl Zuluft", "rpm", DEVICE_CLASS_FREQUENCY),
